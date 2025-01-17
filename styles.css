@@ -19,7 +19,7 @@ header {
 nav a.nav-link {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 15px; /* Increased spacing between links */
     font-weight: bold;
 }
 
