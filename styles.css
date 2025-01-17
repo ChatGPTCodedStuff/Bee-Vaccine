@@ -16,13 +16,14 @@ header {
     padding: 1rem 0;
 }
 
-nav a {
+nav a.nav-link {
     color: white;
     text-decoration: none;
     margin: 0 10px;
+    font-weight: bold;
 }
 
-nav a:hover {
+nav a.nav-link:hover {
     text-decoration: underline;
 }
 
@@ -54,6 +55,6 @@ footer {
 }
 
 .images img {
-    max-width: 100%;
+    width: 200px; /* Set a fixed width for both images */
     height: auto;
 }
